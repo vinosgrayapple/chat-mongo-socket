@@ -1,0 +1,23 @@
+{
+  "name": "chat-mongo-socket",
+  "version": "1.0.0",
+  "description": "Simple chat app using socket io",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinosgrayapple/chat-mongo-socket.git"
+  },
+  "author": "Serhii Komarychev <komarichev@gmail.com> (https://github.com/vinosgrayapple)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinosgrayapple/chat-mongo-socket/issues"
+  },
+  "homepage": "https://github.com/vinosgrayapple/chat-mongo-socket#readme",
+  "dependencies": {
+    "mongodb": "^2.2.33",
+    "socket.io": "^2.0.4"
+  }
+}
